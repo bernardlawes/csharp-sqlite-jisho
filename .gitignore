@@ -1,0 +1,125 @@
+#############
+# OS Junk
+#############
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+#############
+# IDEs & Editors
+#############
+**/.vscode/
+**/.idea/
+**/.vs/                    # Visual Studio settings folder
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.code-workspace
+*.sublime-*
+
+#############
+# Build output
+#############
+**/bin/
+**/obj/
+**/[Bb]uild/
+**/[Ll]og/
+*.log
+**/.vs/
+*.user
+*.suo
+*.tmp
+*.cache
+*.dll   # <--- optionally ignore all DLLs unless you specifically want one
+# !path/to/your/output/MyLibrary.dll #If you want to track one specific DLL, you can override it like this:
+
+#############
+# Packaging
+#############
+*.nupkg
+*.snupkg
+*.nuspec
+*.vsix
+*.zip
+*.tar.gz
+
+#############
+# Installer logs
+#############
+*.msi
+*.exe
+
+#############
+# Debugging & crash dumps
+#############
+*.pdb
+*.mdb
+*.opendb
+*.dmp
+
+#############
+# Test Results
+#############
+**/TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+*.appxrecipe
+
+#############
+# Temporary files
+#############
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
+
+#############
+# Visual Studio profiler
+#############
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+#############
+# Resharper & Extensions
+#############
+**/_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+*.ncrunch*
+*.dotCover
+
+#############
+# Rider
+#############
+**/.idea/
+*.sln.iml
+
+#############
+# NuGet
+#############
+*.nupkg
+.nuget/
+**/packages/
+project.lock.json
+project.fragment.lock.json
+
+#############
+# Others
+#############
+**/node_modules/
+**/vendor/
+.env
+.env.*
+*.db
+*.sqlite
+*.sdf
+*.class
