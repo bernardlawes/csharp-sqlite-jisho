@@ -67,13 +67,10 @@ var nextCard = engine.GetNextCard();
 engine.SubmitReview(nextCard, correct: true);
 ```
 🧪 SQLite Schema Overview
-Flashcards
 
-Id, Kanji, Kana, Meaning, Tags
+> Flashcards: Id, Kanji, Kana, Meaning, Tags
 
-Scores
-
-CardId, LastReviewed, NextDue, Streak, EaseFactor
+> Scores: CardId, LastReviewed, NextDue, Streak, EaseFactor
 
 📄 License
 MIT License. Free to use, modify, and embed in your own learning tools.
