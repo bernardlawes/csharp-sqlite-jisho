@@ -66,3 +66,18 @@ var engine = new ReviewEngine(db);
 var nextCard = engine.GetNextCard();
 engine.SubmitReview(nextCard, correct: true);
 ```
+🧪 SQLite Schema Overview
+Flashcards
+
+Id, Kanji, Kana, Meaning, Tags
+
+Scores
+
+CardId, LastReviewed, NextDue, Streak, EaseFactor
+
+📄 License
+MIT License. Free to use, modify, and embed in your own learning tools.
+
+🙋‍♂️ Author
+Developed by Bernard Lawes
+Built for Japanese language learners who want total control over their flashcard experience.
